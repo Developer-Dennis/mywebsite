@@ -1,0 +1,11 @@
+.aligned {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+.aligned p{
+    padding-top: 200px;
+    font-size: 22px;
+    padding-left: 0;
+    margin-right: 15px;
+    color: #eee;
+}
