@@ -4,7 +4,7 @@ h1{
 .services{
     margin-left: 20px;
     padding-top: 100px;
-    padding-bottom: 20px;
+    /* padding-bottom: 10px; */
 }
 .servicesimage{
     height:250px;
@@ -14,7 +14,6 @@ h1{
     
 }
 .servicesimage img{
-    /* position: relative; */
     margin-top: 90px;
     float: left;
     padding-top: 10px;
