@@ -12,7 +12,7 @@ export default function Home(){
         <p className='paragraph'>  IT Graduate, Freelance Web Developer,Designer, Twitter Strategist</p>
         < div className="options">
             <a  href="#">Hire Me</a>
-            <a   href="https://drive.google.com/file/d/1Wgxh3pX4QguUGZsp5HgvPGT_BHJWJcRw/view?usp=drivesdk">Download Resume</a>
+            <a   href="https://drive.google.com/file/d/1Wgxh3pX4QguUGZsp5HgvPGT_BHJWJcRw/view?usp=drivesdk" target="_blank">Download Resume</a>
         </div>
       
         </body>
