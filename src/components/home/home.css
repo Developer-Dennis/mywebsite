@@ -7,15 +7,10 @@
     font-family: 'Montserrat', sans-serif;
     background-color:black;
     color: #eee;
-    border-top: 1px solid yellow;
-    border-top: 1px solid white;
   }
  
-    
-  
-  
 .home img{
-    margin-top: 90px;
+    margin-top: 0px;
     height:350px;
     width:300px;
     border-radius: 50%;
