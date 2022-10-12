@@ -1,3 +1,4 @@
+import '../App/App.css'
 import navstyles from '../navbar/navbar.css';
 import Home from '../home/home.js';
 import Homestyles from '../home/home.css';
@@ -11,16 +12,15 @@ import React from 'react';
 function App() {
   return(
     <>
-    <div className='list'>
-    
-    <ul id="nav-list">
-      <li><a href="http://localhost:3000/"> Home</a></li>
-      <li><a href="http://localhost:3000/services">Services </a></li>
-      <li><a href="http://localhost:3000/aboutme"> About Me</a></li>
-      <li><a href="http://localhost:3000/contact"> Contact</a></li>
-    </ul>
-    <Navbar />
-    </div>
+      <nav>
+      <ul className="list">
+        <li ><a  className="items" href="http://localhost:3000/"> Home</a></li>
+        <li ><a className="items" href="http://localhost:3000/services">Services </a></li>
+        <li ><a className="items" href="http://localhost:3000/aboutme"> About Me</a></li>
+        <li ><a className="items" href="http://localhost:3000/contact"> Contact</a></li>
+      </ul>
+      <Navbar />
+      </nav>
   <Home />
   <Services />
   <About />

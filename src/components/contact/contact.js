@@ -7,10 +7,10 @@ const Contact = () => {
         <>
         <h2>Contact Us</h2>
         <form>      
-            <input name="name" type="text" className="feedback-input" placeholder="FullNames" />   
-            <input name="email" type="text" className="feedback-input" placeholder="Email" />
+            <input name="name" type="text" className="feedback-input" placeholder="FullNames" required/>   
+            <input name="email" type="text" className="feedback-input" placeholder="Email" required />
             <textarea name="text" className="feedback-input" placeholder="What project do you want to develop we can help"></textarea>
-            <input type="submit" value="SUBMIT"/>
+            <input type="submit" value="SUBMIT" required/>
         </form>
    </>
     )

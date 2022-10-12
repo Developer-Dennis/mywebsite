@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css';
-import {  Link } from "react-router-dom";
 import Home from '../home/home.js';
 import Homestyles from '../home/home.css';
 import Services from '../services/services.js';
@@ -14,14 +13,14 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function Navbar(){
   return(
-    <div className="list">
-      <div className='nav'>
+    <div className="nav">
+      <div className='lists'>
       <BrowserRouter >
-      <Routes className="items">
-      <Route path='/home' element={<Home />}/>
-      <Route  path='/services' element={<Services />}/>
-      <Route  path='/aboutme' element={<About />}/>
-      <Route  path='/contact' element={<Contact />}/>
+      <Routes>
+      <Route className="items" path='/home' element={<Home />}/>
+      <Route  className="items" path='/services' element={<Services />}/>
+      <Route className="items" path='/aboutme' element={<About />}/>
+      <Route className="items" path='/contact' element={<Contact />}/>
       </Routes>
       </BrowserRouter>
       </div>
