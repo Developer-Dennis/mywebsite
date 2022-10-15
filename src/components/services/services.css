@@ -15,8 +15,8 @@ h1{
 }
 .servicesimage img{
     margin-top: 90px;
-    /* position: relative; */
-    /* float: left; */
+    position: relative; 
+    float: left;
     padding-top: 10px;
    
 }
