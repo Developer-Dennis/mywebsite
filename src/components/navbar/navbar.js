@@ -1,30 +1,41 @@
-import React from 'react'
-import './navbar.css';
-import Home from '../home/home.js';
-import Homestyles from '../home/home.css';
-import Services from '../services/services.js';
-import Servicesstyles from '../services/services.css';
-import About from '../aboutme/aboutme.js';
-import Aboutstyles from '../aboutme/aboutme.css';
-import Contact from '../contact/contact.js'
-import Contactstyles from '../contact/contact.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+// import React from 'react'
+import '../navbar/navbar.css';
+import { FiMenu, FiX } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+
 
 
 function Navbar(){
+  const [open, setOpen] = useState(false);
   return(
-    <div className="nav">
-      <div className='lists'>
-      <BrowserRouter >
-      <Routes>
-      <Route className="items" path='/home' element={<Home />}/>
-      <Route  className="items" path='/services' element={<Services />}/>
-      <Route className="items" path='/aboutme' element={<About />}/>
-      <Route className="items" path='/contact' element={<Contact />}/>
-      </Routes>
-      </BrowserRouter>
-      </div>
-    </div>
+  <nav className='navbar'>
+    <Link to="/" className='nav-logo' onClick={() => setOpen(false)}>
+      Dennis Kemboi
+    </Link>
+    <ul className={open ? 'nav-link active' : 'nav-links'}>
+    <li className="nav-item">
+          <Link to="/" className="nav-link" onClick={() => setOpen(false)}>
+            Home
+          </Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/services" className="nav-link" onClick= {() => setOpen(false)}>
+          Services
+          </Link>
+      </li>
+      <li className="nav-item">
+          <Link to="/aboutme" className="nav-link" onClick={() => setOpen(false)}>
+            About Me
+          </Link>
+      </li>
+      <li className="nav-item">
+          <Link to="/contact" className="nav-link" onClick={() => setOpen(false)}>
+            Contact
+          </Link>
+      </li>
+    </ul>
+  </nav>
   )
 }
 export default Navbar;
