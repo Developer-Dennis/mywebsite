@@ -73,7 +73,7 @@
         transition: 0.5s all;
     }
     .nav-links.active{
-        background-color: blue;
+        background-color: #191970;
         left: 0;
     }
     .nav-item{
