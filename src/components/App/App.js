@@ -16,21 +16,13 @@ function App() {
     <Router >
     <Navbar />
     <Routes>
-    <Route className="items" path='/home' element={<Home />}/>
+    <Route className="items" path='/' element={<Home />}/>
     <Route  className="items" path='/services' element={<Services />}/>
     <Route className="items" path='/aboutme' element={<About />}/>
     <Route className="items" path='/contact' element={<Contact />}/>
     </Routes>
     </Router>
     
-
-    
-     
-  <Home />
-  <Services />
-  <About />
-  <Contact />
-  <Footer />
   
   </>
   )
