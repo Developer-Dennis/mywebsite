@@ -1,4 +1,6 @@
-
+.home{
+  width: 100%;
+}
 .home img{
     margin-top: 0px;
     height:350px;
@@ -25,9 +27,8 @@ div .options{
   margin-top: 25px;
 }
 
-
 .desc{
-    margin-top: 120px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -40,4 +41,55 @@ div .options{
     justify-content: center;
     align-items: top;
     font-size: 30px;
+}
+@media only screen and (max-width:500px){
+  .home{
+    width: 100%;
+  }
+  .home img{
+    padding: 0;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0;
+  }
+ .desc{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    bottom: 0;
+    right: 20px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .paragraph{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    bottom: 0;
+    right: 0;
+    display: block;
+    margin-left:10px
+  }
+  .options{
+    margin-top: 15px;
+    margin-left: 0;
+    padding: 0;
+    border-radius: 5px;
+    
+  }
+  .options .hire {
+    margin:0;
+    padding-left: 50px;
+    width:whatever; 
+    margin:0 auto;
+  }
+  .options .resume{
+    margin:0;
+    padding-left: 50px;
+    width:whatever; 
+    margin:0 auto;
+  }
 }
