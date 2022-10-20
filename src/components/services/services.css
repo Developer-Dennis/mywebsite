@@ -58,11 +58,9 @@ figure .row .column .text{
     float: left;
     margin-bottom: 10px;
     }
-    
-    .servicesimage img{
-        width: 200px;
-        height: 200px;
-        padding: 3px;
-        margin-left: 3px;
-    }
+    .servicesimage{
+    max-width: 50%;
+        
+   }
+   
 }
