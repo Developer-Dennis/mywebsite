@@ -12,12 +12,12 @@ export default function Services(){
             <div class="row">
                 <div class="column">
                     <img className='servicesimage' src={brand1} alt="img" />
-                    <figcaption className='heading'>Web Application Development</figcaption>
+                    <figcaption className='heading'>Web App Development</figcaption>
                     <figcaption className='text'>We will build a qualityand reliable web application <br></br>that will enable your to perform your business <br></br>function without a glitch or misfunction</figcaption>
                     </div>
                     <div class="column">
                     <img className='servicesimage' src={brand2} alt="img" />
-                    <figcaption className='heading'>Website Design</figcaption>
+                    <figcaption className='heading'>Web Design</figcaption>
                     <figcaption  className='text'>We will help you design a website that will market your business on a global scale by using latest technologies to produce the best visually appealing website</figcaption>
                     </div>
                     <div class="column">
